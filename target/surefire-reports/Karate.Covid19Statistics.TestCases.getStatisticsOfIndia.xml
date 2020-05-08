@@ -1,0 +1,12 @@
+<testsuite failures="0" name="Karate/Covid19Statistics/TestCases/getStatisticsOfIndia.feature" skipped="0" tests="1" time="2.487948">
+  <testcase classname="Karate.Covid19Statistics.TestCases.getStatisticsOfIndia" name="Fetch statistics of India" time="2.487948">
+    <system-out>Given url baseUrl ......................................................... passed
+And path 'statistics' ..................................................... passed
+And header x-rapidapi-host = "covid-193.p.rapidapi.com" ................... passed
+And header x-rapidapi-key = "d2b1fa2dddmsh130230f565571c8p18b6dcjsneb060c985a2f" . passed
+And param country = 'India' ............................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed</system-out>
+  </testcase>
+</testsuite>

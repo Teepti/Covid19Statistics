@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = new vis.DataSet([{"id":1,"content":"ForkJoinPool-1-worker-1"},{"id":2,"content":"ForkJoinPool-1-worker-3"},{"id":3,"content":"ForkJoinPool-1-worker-4"},{"id":4,"content":"ForkJoinPool-1-worker-2"}]);
+var items = new vis.DataSet([{"id":1,"group":1,"content":"callGetHistoryOfCountriesUsingDataDriven[1:2]","start":2755,"end":12855,"title":"callGetHistoryOfCountriesUsingDataDriven[1:2] 05:30:02.755-05:30:12.855"},{"id":2,"group":2,"content":"getStatisticsOfAllCountries[1:2]","start":2746,"end":5992,"title":"getStatisticsOfAllCountries[1:2] 05:30:02.746-05:30:05.992 Fetch statistics of all countries"},{"id":3,"group":3,"content":"getStatisticsOfAllCountries[2:12]","start":2755,"end":5291,"title":"getStatisticsOfAllCountries[2:12] 05:30:02.755-05:30:05.291 Fetch history of any number of countries for a particula day"},{"id":4,"group":4,"content":"getStatisticsOfIndia[1:2]","start":2740,"end":5290,"title":"getStatisticsOfIndia[1:2] 05:30:02.740-05:30:05.290 Fetch statistics of India"}]);
+var container = document.getElementById('visualization');
+var timeline = new vis.Timeline(container);
+timeline.setOptions({ groupOrder: 'content' });
+timeline.setGroups(groups);
+timeline.setItems(items);
+</script>
+  </body>
+</html>

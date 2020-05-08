@@ -1,0 +1,29 @@
+<testsuite failures="0" name="Karate/Covid19Statistics/TestCases/getStatisticsOfAllCountries.feature" skipped="0" tests="2" time="5.682127">
+  <testcase classname="Karate.Covid19Statistics.TestCases.getStatisticsOfAllCountries" name="Fetch statistics of all countries" time="3.187427">
+    <system-out>Given url baseUrl ......................................................... passed
+And path 'statistics' ..................................................... passed
+And header x-rapidapi-host = "covid-193.p.rapidapi.com" ................... passed
+And header x-rapidapi-key = "d2b1fa2dddmsh130230f565571c8p18b6dcjsneb060c985a2f" . passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed</system-out>
+  </testcase>
+  <testcase classname="Karate.Covid19Statistics.TestCases.getStatisticsOfAllCountries" name="Fetch history of any number of countries for a particula day" time="2.4947">
+    <system-out>Given url baseUrl ......................................................... passed
+And path 'statistics' ..................................................... passed
+And header x-rapidapi-host = "covid-193.p.rapidapi.com" ................... passed
+And header x-rapidapi-key = "d2b1fa2dddmsh130230f565571c8p18b6dcjsneb060c985a2f" . passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed
+* def data = .............................................................. passed
+Given url baseUrl ......................................................... passed
+And path 'history' ........................................................ passed
+And header x-rapidapi-host = "covid-193.p.rapidapi.com" ................... passed
+And header x-rapidapi-key = "d2b1fa2dddmsh130230f565571c8p18b6dcjsneb060c985a2f" . passed
+And params data ........................................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed</system-out>
+  </testcase>
+</testsuite>

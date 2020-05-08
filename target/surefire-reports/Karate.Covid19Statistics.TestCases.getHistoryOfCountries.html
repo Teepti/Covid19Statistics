@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>Karate.Covid19Statistics.TestCases.getHistoryOfCountries</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">1</div>
+            
+<div class="bg-danger" id="nav-fail">0</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2020-05-08 12:53:17 PM</div>        
+      
+<div class="nav-container">
+<div class="nav-item passed">
+<a href="#[1:2]">[1:2] Fetch history of any number of countries for a particular day </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">Karate/Covid19Statistics/TestCases/getHistoryOfCountries.feature</span><span class="feature-description">Fetch History of Coronavirun infected Countries</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1:2]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [1:2]</span><span class="scenario-name">Fetch history of any number of countries for a particular day </span>
+</div>
+<div class="scenario-time passed">ms: 2192</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="1">
+<div class="step-ref passed">1</div>
+<div class="step-cell passed">* def data =</div>
+</div>
+<div class="time-cell passed">47</div>
+</div>
+<div class="preformatted" data-parent="1">{
+	'country': '#(country)',
+	'day' : '#(day)'
+}</div>
+<div class="step-row">
+<div class="step-container" id="2">
+<div class="step-ref passed">2</div>
+<div class="step-cell passed">Given url baseUrl</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="3">
+<div class="step-ref passed">3</div>
+<div class="step-cell passed">And path 'history'</div>
+</div>
+<div class="time-cell passed">14</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="4">
+<div class="step-ref passed">4</div>
+<div class="step-cell passed">And header x-rapidapi-host = "covid-193.p.rapidapi.com"</div>
+</div>
+<div class="time-cell passed">5</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="5">
+<div class="step-ref passed">5</div>
+<div class="step-cell passed">And header x-rapidapi-key = "d2b1fa2dddmsh130230f565571c8p18b6dcjsneb060c985a2f"</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="6">
+<div class="step-ref passed">6</div>
+<div class="step-cell passed">And params data</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="7">
+<div class="step-ref passed">7</div>
+<div class="step-cell passed">When method get</div>
+</div>
+<div class="time-cell passed">2122</div>
+</div>
+<div class="preformatted" data-parent="7">12:53:07.433 request:
+1 &gt; GET https://covid-193.p.rapidapi.com/history?country=%23%28country%29&amp;day=%23%28day%29
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: covid-193.p.rapidapi.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_252)
+1 &gt; x-rapidapi-host: covid-193.p.rapidapi.com
+1 &gt; x-rapidapi-key: d2b1fa2dddmsh130230f565571c8p18b6dcjsneb060c985a2f
+
+12:53:09.053 response time in milliseconds: 1619.11
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 163
+1 &lt; Content-Type: application/json
+1 &lt; Date: Fri, 08 May 2020 07:23:46 GMT
+1 &lt; Server: RapidAPI-1.1.6
+1 &lt; X-RapidAPI-Region: AWS - ap-southeast-1
+1 &lt; X-RapidAPI-Version: 1.1.6
+{"get":"history","parameters":{"country":"#(country)","day":"#(day)"},"errors":{"day":"The Day field must contain a valid date: Y-m-d."},"results":0,"response":[]}</div>
+<div class="step-row">
+<div class="step-container" id="8">
+<div class="step-ref passed">8</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="9">
+<div class="step-ref passed">9</div>
+<div class="step-cell passed">Then print response</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="preformatted" data-parent="9">12:53:09.056 [print] {
+  "response": [
+  ],
+  "get": "history",
+  "parameters": {
+    "country": "#(country)",
+    "day": "#(day)"
+  },
+  "results": 0,
+  "errors": {
+    "day": "The Day field must contain a valid date: Y-m-d."
+  }
+}</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>

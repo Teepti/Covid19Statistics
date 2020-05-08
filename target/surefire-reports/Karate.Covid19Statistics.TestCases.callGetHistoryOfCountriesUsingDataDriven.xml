@@ -1,0 +1,8 @@
+<testsuite failures="0" name="Karate/Covid19Statistics/TestCases/callGetHistoryOfCountriesUsingDataDriven.feature" skipped="0" tests="1" time="10.078199">
+  <testcase classname="Karate.Covid19Statistics.TestCases.callGetHistoryOfCountriesUsingDataDriven" name="1" time="10.078199">
+    <system-out>* table params ............................................................ passed
+* def myFeature = call read('getStatisticsOfAllCountries.feature') params . passed
+Then print myFeature.status ............................................... passed
+Then print myFeature.response ............................................. passed</system-out>
+  </testcase>
+</testsuite>

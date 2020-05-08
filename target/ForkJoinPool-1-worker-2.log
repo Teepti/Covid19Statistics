@@ -1,0 +1,1620 @@
+17:09:08.161 request:
+1 > GET https://covid-193.p.rapidapi.com/statistics?country=India
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: covid-193.p.rapidapi.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_252)
+1 > x-rapidapi-host: covid-193.p.rapidapi.com
+1 > x-rapidapi-key: d2b1fa2dddmsh130230f565571c8p18b6dcjsneb060c985a2f
+
+17:09:09.704 response time in milliseconds: 1500.49
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 308
+1 < Content-Type: application/json
+1 < Date: Fri, 08 May 2020 11:39:48 GMT
+1 < Server: RapidAPI-1.1.6
+1 < X-RapidAPI-Region: AWS - ap-southeast-1
+1 < X-RapidAPI-Version: 1.1.6
+{"get":"statistics","parameters":{"country":"India"},"errors":[],"results":1,"response":[{"country":"India","cases":{"new":"+165","active":37754,"critical":0,"recovered":16867,"total":56516},"deaths":{"new":"+6","total":1895},"tests":{"total":1437788},"day":"2020-05-08","time":"2020-05-08T11:30:05+00:00"}]}
+
+17:09:09.710 [print] {
+  "response": [
+    {
+      "country": "India",
+      "cases": {
+        "new": "+165",
+        "recovered": 16867,
+        "total": 56516,
+        "critical": 0,
+        "active": 37754
+      },
+      "tests": {
+        "total": 1437788
+      },
+      "time": "2020-05-08T11:30:05+00:00",
+      "day": "2020-05-08",
+      "deaths": {
+        "new": "+6",
+        "total": 1895
+      }
+    }
+  ],
+  "get": "statistics",
+  "parameters": {
+    "country": "India"
+  },
+  "results": 1,
+  "errors": [
+  ]
+}
+
+atini","Ethiopia","Faeroe-Islands","Falkland-Islands","Fiji","Finland","France","French-Guiana","French-Polynesia","Gabon","Gambia","Georgia","Germany","Ghana","Gibraltar","Greece","Greenland","Grenada","Guadeloupe","Guam","Guatemala","Guinea","Guinea-Bissau","Guyana","Haiti","Honduras","Hong-Kong","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Isle-of-Man","Israel","Italy","Ivory-Coast","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Macao","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","Martinique","Mauritania","Mauritius","Mayotte","Mexico","Moldova","Monaco","Mongolia","Montenegro","Montserrat","Morocco","Mozambique","MS-Zaandam","MS-Zaandam-","Myanmar","Namibia","Nepal","Netherlands","New-Caledonia","New-Zealand","Nicaragua","Niger","Nigeria","North-Macedonia","Norway","Oman","Pakistan","Palestine","Panama","Papua-New-Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Puerto-Rico","Qatar","R&eacute;union","Romania","Russia","Rwanda","S-Korea","Saint-Kitts-and-Nevis","Saint-Lucia","Saint-Martin","Saint-Pierre-Miquelon","San-Marino","Sao-Tome-and-Principe","Saudi-Arabia","Senegal","Serbia","Seychelles","Sierra-Leone","Singapore","Sint-Maarten","Slovakia","Slovenia","Somalia","South-Africa","South-Sudan","Spain","Sri-Lanka","St-Barth","St-Vincent-Grenadines","Sudan","Suriname","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","Timor-Leste","Togo","Trinidad-and-Tobago","Tunisia","Turkey","Turks-and-Caicos","UAE","Uganda","UK","Ukraine","Uruguay","US-Virgin-Islands","USA","Uzbekistan","Vatican-City","Venezuela","Vietnam","Western-Sahara","Yemen","Zambia","Zimbabwe"]}
+
+13:17:34.938 [print] {
+  "response": [
+    "Afghanistan",
+    "Albania",
+    "Algeria",
+    "Andorra",
+    "Angola",
+    "Anguilla",
+    "Antigua-and-Barbuda",
+    "Argentina",
+    "Armenia",
+    "Aruba",
+    "Australia",
+    "Austria",
+    "Azerbaijan",
+    "Bahamas",
+    "Bahrain",
+    "Bangladesh",
+    "Barbados",
+    "Belarus",
+    "Belgium",
+    "Belize",
+    "Benin",
+    "Bermuda",
+    "Bhutan",
+    "Bolivia",
+    "Bosnia-and-Herzegovina",
+    "Botswana",
+    "Brazil",
+    "British-Virgin-Islands",
+    "Brunei",
+    "Bulgaria",
+    "Burkina-Faso",
+    "Burundi",
+    "Cabo-Verde",
+    "Cambodia",
+    "Cameroon",
+    "Canada",
+    "CAR",
+    "Caribbean-Netherlands",
+    "Cayman-Islands",
+    "Chad",
+    "Channel-Islands",
+    "Chile",
+    "China",
+    "Colombia",
+    "Comoros",
+    "Congo",
+    "Costa-Rica",
+    "Croatia",
+    "Cuba",
+    "Cura&ccedil;ao",
+    "Cyprus",
+    "Czechia",
+    "Denmark",
+    "Diamond-Princess",
+    "Diamond-Princess-",
+    "Djibouti",
+    "Dominica",
+    "Dominican-Republic",
+    "DRC",
+    "Ecuador",
+    "Egypt",
+    "El-Salvador",
+    "Equatorial-Guinea",
+    "Eritrea",
+    "Estonia",
+    "Eswatini",
+    "Ethiopia",
+    "Faeroe-Islands",
+    "Falkland-Islands",
+    "Fiji",
+    "Finland",
+    "France",
+    "French-Guiana",
+    "French-Polynesia",
+    "Gabon",
+    "Gambia",
+    "Georgia",
+    "Germany",
+    "Ghana",
+    "Gibraltar",
+    "Greece",
+    "Greenland",
+    "Grenada",
+    "Guadeloupe",
+    "Guam",
+    "Guatemala",
+    "Guinea",
+    "Guinea-Bissau",
+    "Guyana",
+    "Haiti",
+    "Honduras",
+    "Hong-Kong",
+    "Hungary",
+    "Iceland",
+    "India",
+    "Indonesia",
+    "Iran",
+    "Iraq",
+    "Ireland",
+    "Isle-of-Man",
+    "Israel",
+    "Italy",
+    "Ivory-Coast",
+    "Jamaica",
+    "Japan",
+    "Jordan",
+    "Kazakhstan",
+    "Kenya",
+    "Kuwait",
+    "Kyrgyzstan",
+    "Laos",
+    "Latvia",
+    "Lebanon",
+    "Liberia",
+    "Libya",
+    "Liechtenstein",
+    "Lithuania",
+    "Luxembourg",
+    "Macao",
+    "Madagascar",
+    "Malawi",
+    "Malaysia",
+    "Maldives",
+    "Mali",
+    "Malta",
+    "Martinique",
+    "Mauritania",
+    "Mauritius",
+    "Mayotte",
+    "Mexico",
+    "Moldova",
+    "Monaco",
+    "Mongolia",
+    "Montenegro",
+    "Montserrat",
+    "Morocco",
+    "Mozambique",
+    "MS-Zaandam",
+    "MS-Zaandam-",
+    "Myanmar",
+    "Namibia",
+    "Nepal",
+    "Netherlands",
+    "New-Caledonia",
+    "New-Zealand",
+    "Nicaragua",
+    "Niger",
+    "Nigeria",
+    "North-Macedonia",
+    "Norway",
+    "Oman",
+    "Pakistan",
+    "Palestine",
+    "Panama",
+    "Papua-New-Guinea",
+    "Paraguay",
+    "Peru",
+    "Philippines",
+    "Poland",
+    "Portugal",
+    "Puerto-Rico",
+    "Qatar",
+    "R&eacute;union",
+    "Romania",
+    "Russia",
+    "Rwanda",
+    "S-Korea",
+    "Saint-Kitts-and-Nevis",
+    "Saint-Lucia",
+    "Saint-Martin",
+    "Saint-Pierre-Miquelon",
+    "San-Marino",
+    "Sao-Tome-and-Principe",
+    "Saudi-Arabia",
+    "Senegal",
+    "Serbia",
+    "Seychelles",
+    "Sierra-Leone",
+    "Singapore",
+    "Sint-Maarten",
+    "Slovakia",
+    "Slovenia",
+    "Somalia",
+    "South-Africa",
+    "South-Sudan",
+    "Spain",
+    "Sri-Lanka",
+    "St-Barth",
+    "St-Vincent-Grenadines",
+    "Sudan",
+    "Suriname",
+    "Sweden",
+    "Switzerland",
+    "Syria",
+    "Taiwan",
+    "Tajikistan",
+    "Tanzania",
+    "Thailand",
+    "Timor-Leste",
+    "Togo",
+    "Trinidad-and-Tobago",
+    "Tunisia",
+    "Turkey",
+    "Turks-and-Caicos",
+    "UAE",
+    "Uganda",
+    "UK",
+    "Ukraine",
+    "Uruguay",
+    "US-Virgin-Islands",
+    "USA",
+    "Uzbekistan",
+    "Vatican-City",
+    "Venezuela",
+    "Vietnam",
+    "Western-Sahara",
+    "Yemen",
+    "Zambia",
+    "Zimbabwe"
+  ],
+  "get": "countries",
+  "parameters": [
+  ],
+  "results": 219,
+  "errors": [
+  ]
+}
+
+","active":26341,"critical":708,"recovered":178,"total":26867},"deaths":{"new":"+46","total":348},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T05:15:05+00:00"},{"country":"USA","cases":{"new":"+2660","active":26341,"critical":64,"recovered":178,"total":26867},"deaths":{"new":"+46","total":348},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T05:00:05+00:00"},{"country":"USA","cases":{"new":"+2656","active":26337,"critical":64,"recovered":178,"total":26863},"deaths":{"new":"+46","total":348},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T04:30:05+00:00"},{"country":"USA","cases":{"new":"+2652","active":26333,"critical":64,"recovered":178,"total":26859},"deaths":{"new":"+46","total":348},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T04:00:06+00:00"},{"country":"USA","cases":{"new":"+2640","active":26325,"critical":64,"recovered":176,"total":26847},"deaths":{"new":"+44","total":346},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T03:45:06+00:00"},{"country":"USA","cases":{"new":"+2618","active":26304,"critical":64,"recovered":176,"total":26825},"deaths":{"new":"+43","total":345},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T03:30:06+00:00"},{"country":"USA","cases":{"new":"+7401","active":26264,"critical":64,"recovered":176,"total":26784},"deaths":{"new":"+88","total":344},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T03:15:05+00:00"},{"country":"USA","cases":{"new":"+7396","active":26259,"critical":64,"recovered":176,"total":26779},"deaths":{"new":"+88","total":344},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T03:00:05+00:00"},{"country":"USA","cases":{"new":"+7328","active":26194,"critical":64,"recovered":176,"total":26711},"deaths":{"new":"+85","total":341},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T02:45:05+00:00"},{"country":"USA","cases":{"new":"+7303","active":26170,"critical":64,"recovered":176,"total":26686},"deaths":{"new":"+84","total":340},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T02:30:05+00:00"},{"country":"USA","cases":{"new":"+7301","active":26168,"critical":64,"recovered":176,"total":26684},"deaths":{"new":"+84","total":340},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T02:15:05+00:00"},{"country":"USA","cases":{"new":"+7686","active":26553,"critical":64,"recovered":176,"total":27069},"deaths":{"new":"+84","total":340},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T02:00:05+00:00"},{"country":"USA","cases":{"new":"+7304","active":26171,"critical":64,"recovered":176,"total":26687},"deaths":{"new":"+84","total":340},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T01:45:06+00:00"},{"country":"USA","cases":{"new":"+7302","active":26169,"critical":64,"recovered":176,"total":26685},"deaths":{"new":"+84","total":340},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T01:30:05+00:00"},{"country":"USA","cases":{"new":"+6729","active":25611,"critical":64,"recovered":176,"total":26112},"deaths":{"new":"+69","total":325},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T01:15:06+00:00"},{"country":"USA","cases":{"new":"+6728","active":25611,"critical":64,"recovered":176,"total":26111},"deaths":{"new":"+68","total":324},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T01:00:05+00:00"},{"country":"USA","cases":{"new":"+6513","active":25404,"critical":64,"recovered":176,"total":25896},"deaths":{"new":"+60","total":316},"tests":{"total":null},"day":"2020-03-22","time":"2020-03-22T00:34:07+00:00"}]}
+
+11:46:34.557 [print] {
+  "response": [
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+8373",
+        "recovered": 178,
+        "total": 32580,
+        "critical": 795,
+        "active": 31987
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T23:45:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+113",
+        "total": 415
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+8257",
+        "recovered": 178,
+        "total": 32464,
+        "critical": 795,
+        "active": 31872
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T23:30:07+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+112",
+        "total": 414
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+8149",
+        "recovered": 178,
+        "total": 32356,
+        "critical": 795,
+        "active": 31764
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T23:15:04+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+112",
+        "total": 414
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+14550",
+        "recovered": 178,
+        "total": 38757,
+        "critical": 795,
+        "active": 38179
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T19:30:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+98",
+        "total": 400
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+14550",
+        "recovered": 178,
+        "total": 38757,
+        "critical": 708,
+        "active": 38179
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T18:45:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+98",
+        "total": 400
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+13960",
+        "recovered": 178,
+        "total": 38167,
+        "critical": 708,
+        "active": 37593
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T18:30:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+94",
+        "total": 396
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+13958",
+        "recovered": 178,
+        "total": 38165,
+        "critical": 708,
+        "active": 37591
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T18:00:06+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+94",
+        "total": 396
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+13931",
+        "recovered": 178,
+        "total": 38138,
+        "critical": 708,
+        "active": 37564
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T17:57:30+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+94",
+        "total": 396
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+11539",
+        "recovered": 178,
+        "total": 35746,
+        "critical": 708,
+        "active": 35176
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T17:30:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+90",
+        "total": 392
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+6084",
+        "recovered": 178,
+        "total": 30291,
+        "critical": 708,
+        "active": 29725
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T17:15:06+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+86",
+        "total": 388
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+6032",
+        "recovered": 178,
+        "total": 30239,
+        "critical": 708,
+        "active": 29673
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T16:45:06+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+86",
+        "total": 388
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+5007",
+        "recovered": 178,
+        "total": 29214,
+        "critical": 708,
+        "active": 28687
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T16:30:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+47",
+        "total": 349
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+5004",
+        "recovered": 178,
+        "total": 29211,
+        "critical": 708,
+        "active": 28684
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T16:15:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+47",
+        "total": 349
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2944",
+        "recovered": 178,
+        "total": 27151,
+        "critical": 708,
+        "active": 26624
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T16:00:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+47",
+        "total": 349
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2930",
+        "recovered": 178,
+        "total": 27137,
+        "critical": 708,
+        "active": 26610
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T15:30:06+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+47",
+        "total": 349
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2913",
+        "recovered": 178,
+        "total": 27120,
+        "critical": 708,
+        "active": 26593
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T15:15:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+47",
+        "total": 349
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2824",
+        "recovered": 178,
+        "total": 27031,
+        "critical": 708,
+        "active": 26504
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T15:00:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+47",
+        "total": 349
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2752",
+        "recovered": 178,
+        "total": 26959,
+        "critical": 708,
+        "active": 26432
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T14:45:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+47",
+        "total": 349
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2702",
+        "recovered": 178,
+        "total": 26909,
+        "critical": 708,
+        "active": 26382
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T14:30:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+47",
+        "total": 349
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2702",
+        "recovered": 178,
+        "total": 26909,
+        "critical": 708,
+        "active": 26383
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T13:45:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+46",
+        "total": 348
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2701",
+        "recovered": 178,
+        "total": 26908,
+        "critical": 708,
+        "active": 26382
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T13:30:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+46",
+        "total": 348
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2699",
+        "recovered": 178,
+        "total": 26906,
+        "critical": 708,
+        "active": 26380
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T13:15:06+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+46",
+        "total": 348
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2698",
+        "recovered": 178,
+        "total": 26905,
+        "critical": 708,
+        "active": 26379
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T12:45:09+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+46",
+        "total": 348
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2697",
+        "recovered": 178,
+        "total": 26904,
+        "critical": 708,
+        "active": 26378
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T12:30:06+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+46",
+        "total": 348
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2693",
+        "recovered": 178,
+        "total": 26900,
+        "critical": 708,
+        "active": 26374
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T12:15:16+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+46",
+        "total": 348
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2685",
+        "recovered": 178,
+        "total": 26892,
+        "critical": 708,
+        "active": 26366
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T09:15:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+46",
+        "total": 348
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2681",
+        "recovered": 178,
+        "total": 26888,
+        "critical": 708,
+        "active": 26362
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T06:30:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+46",
+        "total": 348
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2671",
+        "recovered": 178,
+        "total": 26878,
+        "critical": 708,
+        "active": 26352
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T05:45:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+46",
+        "total": 348
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2671",
+        "recovered": 182,
+        "total": 26878,
+        "critical": 708,
+        "active": 26348
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T05:30:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+46",
+        "total": 348
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2660",
+        "recovered": 178,
+        "total": 26867,
+        "critical": 708,
+        "active": 26341
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T05:15:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+46",
+        "total": 348
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2660",
+        "recovered": 178,
+        "total": 26867,
+        "critical": 64,
+        "active": 26341
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T05:00:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+46",
+        "total": 348
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2656",
+        "recovered": 178,
+        "total": 26863,
+        "critical": 64,
+        "active": 26337
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T04:30:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+46",
+        "total": 348
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2652",
+        "recovered": 178,
+        "total": 26859,
+        "critical": 64,
+        "active": 26333
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T04:00:06+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+46",
+        "total": 348
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2640",
+        "recovered": 176,
+        "total": 26847,
+        "critical": 64,
+        "active": 26325
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T03:45:06+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+44",
+        "total": 346
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+2618",
+        "recovered": 176,
+        "total": 26825,
+        "critical": 64,
+        "active": 26304
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T03:30:06+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+43",
+        "total": 345
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+7401",
+        "recovered": 176,
+        "total": 26784,
+        "critical": 64,
+        "active": 26264
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T03:15:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+88",
+        "total": 344
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+7396",
+        "recovered": 176,
+        "total": 26779,
+        "critical": 64,
+        "active": 26259
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T03:00:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+88",
+        "total": 344
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+7328",
+        "recovered": 176,
+        "total": 26711,
+        "critical": 64,
+        "active": 26194
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T02:45:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+85",
+        "total": 341
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+7303",
+        "recovered": 176,
+        "total": 26686,
+        "critical": 64,
+        "active": 26170
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T02:30:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+84",
+        "total": 340
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+7301",
+        "recovered": 176,
+        "total": 26684,
+        "critical": 64,
+        "active": 26168
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T02:15:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+84",
+        "total": 340
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+7686",
+        "recovered": 176,
+        "total": 27069,
+        "critical": 64,
+        "active": 26553
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T02:00:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+84",
+        "total": 340
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+7304",
+        "recovered": 176,
+        "total": 26687,
+        "critical": 64,
+        "active": 26171
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T01:45:06+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+84",
+        "total": 340
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+7302",
+        "recovered": 176,
+        "total": 26685,
+        "critical": 64,
+        "active": 26169
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T01:30:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+84",
+        "total": 340
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+6729",
+        "recovered": 176,
+        "total": 26112,
+        "critical": 64,
+        "active": 25611
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T01:15:06+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+69",
+        "total": 325
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+6728",
+        "recovered": 176,
+        "total": 26111,
+        "critical": 64,
+        "active": 25611
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T01:00:05+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+68",
+        "total": 324
+      }
+    },
+    {
+      "country": "USA",
+      "cases": {
+        "new": "+6513",
+        "recovered": 176,
+        "total": 25896,
+        "critical": 64,
+        "active": 25404
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-22T00:34:07+00:00",
+      "day": "2020-03-22",
+      "deaths": {
+        "new": "+60",
+        "total": 316
+      }
+    }
+  ],
+  "get": "history",
+  "parameters": {
+    "country": "usa",
+    "day": "2020-03-22"
+  },
+  "results": 46,
+  "errors": [
+  ]
+}
+
+11:46:34.579 request:
+1 > GET https://covid-193.p.rapidapi.com/history?country=India&day=2020-03-23
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: covid-193.p.rapidapi.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_252)
+1 > x-rapidapi-host: covid-193.p.rapidapi.com
+1 > x-rapidapi-key: d2b1fa2dddmsh130230f565571c8p18b6dcjsneb060c985a2f
+
+11:46:36.316 response time in milliseconds: 1735.64
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 1330
+1 < Content-Type: application/json
+1 < Date: Fri, 08 May 2020 06:17:14 GMT
+1 < Server: RapidAPI-1.1.6
+1 < X-RapidAPI-Region: AWS - ap-southeast-1
+1 < X-RapidAPI-Version: 1.1.6
+{"get":"history","parameters":{"country":"India","day":"2020-03-23"},"errors":[],"results":6,"response":[{"country":"India","cases":{"new":"+71","active":424,"critical":0,"recovered":34,"total":467},"deaths":{"new":"+2","total":9},"tests":{"total":null},"day":"2020-03-23","time":"2020-03-23T19:00:13+00:00"},{"country":"India","cases":{"new":"+72","active":435,"critical":0,"recovered":24,"total":468},"deaths":{"new":"+2","total":9},"tests":{"total":null},"day":"2020-03-23","time":"2020-03-23T15:45:06+00:00"},{"country":"India","cases":{"new":"+71","active":435,"critical":0,"recovered":24,"total":467},"deaths":{"new":"+1","total":8},"tests":{"total":null},"day":"2020-03-23","time":"2020-03-23T15:30:05+00:00"},{"country":"India","cases":{"new":"+37","active":401,"critical":0,"recovered":24,"total":433},"deaths":{"new":"+1","total":8},"tests":{"total":null},"day":"2020-03-23","time":"2020-03-23T15:00:08+00:00"},{"country":"India","cases":{"new":"+29","active":393,"critical":0,"recovered":24,"total":425},"deaths":{"new":"+1","total":8},"tests":{"total":null},"day":"2020-03-23","time":"2020-03-23T13:30:05+00:00"},{"country":"India","cases":{"new":"+64","active":365,"critical":0,"recovered":24,"total":396},"deaths":{"new":"+2","total":7},"tests":{"total":null},"day":"2020-03-23","time":"2020-03-23T05:00:05+00:00"}]}
+
+11:46:36.319 [print] {
+  "response": [
+    {
+      "country": "India",
+      "cases": {
+        "new": "+71",
+        "recovered": 34,
+        "total": 467,
+        "critical": 0,
+        "active": 424
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-23T19:00:13+00:00",
+      "day": "2020-03-23",
+      "deaths": {
+        "new": "+2",
+        "total": 9
+      }
+    },
+    {
+      "country": "India",
+      "cases": {
+        "new": "+72",
+        "recovered": 24,
+        "total": 468,
+        "critical": 0,
+        "active": 435
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-23T15:45:06+00:00",
+      "day": "2020-03-23",
+      "deaths": {
+        "new": "+2",
+        "total": 9
+      }
+    },
+    {
+      "country": "India",
+      "cases": {
+        "new": "+71",
+        "recovered": 24,
+        "total": 467,
+        "critical": 0,
+        "active": 435
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-23T15:30:05+00:00",
+      "day": "2020-03-23",
+      "deaths": {
+        "new": "+1",
+        "total": 8
+      }
+    },
+    {
+      "country": "India",
+      "cases": {
+        "new": "+37",
+        "recovered": 24,
+        "total": 433,
+        "critical": 0,
+        "active": 401
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-23T15:00:08+00:00",
+      "day": "2020-03-23",
+      "deaths": {
+        "new": "+1",
+        "total": 8
+      }
+    },
+    {
+      "country": "India",
+      "cases": {
+        "new": "+29",
+        "recovered": 24,
+        "total": 425,
+        "critical": 0,
+        "active": 393
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-23T13:30:05+00:00",
+      "day": "2020-03-23",
+      "deaths": {
+        "new": "+1",
+        "total": 8
+      }
+    },
+    {
+      "country": "India",
+      "cases": {
+        "new": "+64",
+        "recovered": 24,
+        "total": 396,
+        "critical": 0,
+        "active": 365
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-23T05:00:05+00:00",
+      "day": "2020-03-23",
+      "deaths": {
+        "new": "+2",
+        "total": 7
+      }
+    }
+  ],
+  "get": "history",
+  "parameters": {
+    "country": "India",
+    "day": "2020-03-23"
+  },
+  "results": 6,
+  "errors": [
+  ]
+}
+
+11:46:36.348 request:
+1 > GET https://covid-193.p.rapidapi.com/history?country=Germany&day=2020-03-24
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: covid-193.p.rapidapi.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_252)
+1 > x-rapidapi-host: covid-193.p.rapidapi.com
+1 > x-rapidapi-key: d2b1fa2dddmsh130230f565571c8p18b6dcjsneb060c985a2f
+
+11:46:37.623 response time in milliseconds: 1273.09
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 3143
+1 < Content-Type: application/json
+1 < Date: Fri, 08 May 2020 06:17:15 GMT
+1 < Server: RapidAPI-1.1.6
+1 < X-RapidAPI-Region: AWS - ap-southeast-1
+1 < X-RapidAPI-Version: 1.1.6
+{"get":"history","parameters":{"country":"Germany","day":"2020-03-24"},"errors":[],"results":14,"response":[{"country":"Germany","cases":{"new":"+3930","active":29586,"critical":23,"recovered":3243,"total":32986},"deaths":{"new":"+34","total":157},"tests":{"total":null},"day":"2020-03-24","time":"2020-03-24T23:45:06+00:00"},{"country":"Germany","cases":{"new":"+3725","active":29381,"critical":23,"recovered":3243,"total":32781},"deaths":{"new":"+34","total":157},"tests":{"total":null},"day":"2020-03-24","time":"2020-03-24T20:45:06+00:00"},{"country":"Germany","cases":{"new":"+3725","active":29382,"critical":23,"recovered":3243,"total":32781},"deaths":{"new":"+33","total":156},"tests":{"total":null},"day":"2020-03-24","time":"2020-03-24T19:45:06+00:00"},{"country":"Germany","cases":{"new":"+3725","active":29492,"critical":23,"recovered":3133,"total":32781},"deaths":{"new":"+33","total":156},"tests":{"total":null},"day":"2020-03-24","time":"2020-03-24T18:30:06+00:00"},{"country":"Germany","cases":{"new":"+2935","active":31093,"critical":23,"recovered":749,"total":31991},"deaths":{"new":"+26","total":149},"tests":{"total":null},"day":"2020-03-24","time":"2020-03-24T17:30:07+00:00"},{"country":"Germany","cases":{"new":"+2314","active":30488,"critical":23,"recovered":749,"total":31370},"deaths":{"new":"+10","total":133},"tests":{"total":null},"day":"2020-03-24","time":"2020-03-24T16:10:06+00:00"},{"country":"Germany","cases":{"new":"+2314","active":30489,"critical":23,"recovered":749,"total":31370},"deaths":{"new":"+9","total":132},"tests":{"total":null},"day":"2020-03-24","time":"2020-03-24T14:26:32+00:00"},{"country":"Germany","cases":{"new":"+2204","active":30379,"critical":23,"recovered":749,"total":31260},"deaths":{"new":"+9","total":132},"tests":{"total":null},"day":"2020-03-24","time":"2020-03-24T13:58:19+00:00"},{"country":"Germany","cases":{"new":"+1301","active":29755,"critical":23,"recovered":472,"total":30357},"deaths":{"new":"+7","total":130},"tests":{"total":null},"day":"2020-03-24","time":"2020-03-24T13:07:26+00:00"},{"country":"Germany","cases":{"new":"+1094","active":29567,"critical":23,"recovered":453,"total":30150},"deaths":{"new":"+7","total":130},"tests":{"total":null},"day":"2020-03-24","time":"2020-03-24T12:46:13+00:00"},{"country":"Germany","cases":{"new":"+1082","active":29555,"critical":23,"recovered":453,"total":30138},"deaths":{"new":"+7","total":130},"tests":{"total":null},"day":"2020-03-24","time":"2020-03-24T10:45:06+00:00"},{"country":"Germany","cases":{"new":"+1025","active":29498,"critical":23,"recovered":453,"total":30081},"deaths":{"new":"+7","total":130},"tests":{"total":null},"day":"2020-03-24","time":"2020-03-24T10:30:05+00:00"},{"country":"Germany","cases":{"new":"+504","active":28981,"critical":23,"recovered":453,"total":29560},"deaths":{"new":"+3","total":126},"tests":{"total":null},"day":"2020-03-24","time":"2020-03-24T09:30:05+00:00"},{"country":"Germany","cases":{"new":"+4183","active":28480,"critical":23,"recovered":453,"total":29056},"deaths":{"new":"+29","total":123},"tests":{"total":null},"day":"2020-03-24","time":"2020-03-24T09:15:06+00:00"}]}
+
+11:46:37.629 [print] {
+  "response": [
+    {
+      "country": "Germany",
+      "cases": {
+        "new": "+3930",
+        "recovered": 3243,
+        "total": 32986,
+        "critical": 23,
+        "active": 29586
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-24T23:45:06+00:00",
+      "day": "2020-03-24",
+      "deaths": {
+        "new": "+34",
+        "total": 157
+      }
+    },
+    {
+      "country": "Germany",
+      "cases": {
+        "new": "+3725",
+        "recovered": 3243,
+        "total": 32781,
+        "critical": 23,
+        "active": 29381
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-24T20:45:06+00:00",
+      "day": "2020-03-24",
+      "deaths": {
+        "new": "+34",
+        "total": 157
+      }
+    },
+    {
+      "country": "Germany",
+      "cases": {
+        "new": "+3725",
+        "recovered": 3243,
+        "total": 32781,
+        "critical": 23,
+        "active": 29382
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-24T19:45:06+00:00",
+      "day": "2020-03-24",
+      "deaths": {
+        "new": "+33",
+        "total": 156
+      }
+    },
+    {
+      "country": "Germany",
+      "cases": {
+        "new": "+3725",
+        "recovered": 3133,
+        "total": 32781,
+        "critical": 23,
+        "active": 29492
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-24T18:30:06+00:00",
+      "day": "2020-03-24",
+      "deaths": {
+        "new": "+33",
+        "total": 156
+      }
+    },
+    {
+      "country": "Germany",
+      "cases": {
+        "new": "+2935",
+        "recovered": 749,
+        "total": 31991,
+        "critical": 23,
+        "active": 31093
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-24T17:30:07+00:00",
+      "day": "2020-03-24",
+      "deaths": {
+        "new": "+26",
+        "total": 149
+      }
+    },
+    {
+      "country": "Germany",
+      "cases": {
+        "new": "+2314",
+        "recovered": 749,
+        "total": 31370,
+        "critical": 23,
+        "active": 30488
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-24T16:10:06+00:00",
+      "day": "2020-03-24",
+      "deaths": {
+        "new": "+10",
+        "total": 133
+      }
+    },
+    {
+      "country": "Germany",
+      "cases": {
+        "new": "+2314",
+        "recovered": 749,
+        "total": 31370,
+        "critical": 23,
+        "active": 30489
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-24T14:26:32+00:00",
+      "day": "2020-03-24",
+      "deaths": {
+        "new": "+9",
+        "total": 132
+      }
+    },
+    {
+      "country": "Germany",
+      "cases": {
+        "new": "+2204",
+        "recovered": 749,
+        "total": 31260,
+        "critical": 23,
+        "active": 30379
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-24T13:58:19+00:00",
+      "day": "2020-03-24",
+      "deaths": {
+        "new": "+9",
+        "total": 132
+      }
+    },
+    {
+      "country": "Germany",
+      "cases": {
+        "new": "+1301",
+        "recovered": 472,
+        "total": 30357,
+        "critical": 23,
+        "active": 29755
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-24T13:07:26+00:00",
+      "day": "2020-03-24",
+      "deaths": {
+        "new": "+7",
+        "total": 130
+      }
+    },
+    {
+      "country": "Germany",
+      "cases": {
+        "new": "+1094",
+        "recovered": 453,
+        "total": 30150,
+        "critical": 23,
+        "active": 29567
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-24T12:46:13+00:00",
+      "day": "2020-03-24",
+      "deaths": {
+        "new": "+7",
+        "total": 130
+      }
+    },
+    {
+      "country": "Germany",
+      "cases": {
+        "new": "+1082",
+        "recovered": 453,
+        "total": 30138,
+        "critical": 23,
+        "active": 29555
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-24T10:45:06+00:00",
+      "day": "2020-03-24",
+      "deaths": {
+        "new": "+7",
+        "total": 130
+      }
+    },
+    {
+      "country": "Germany",
+      "cases": {
+        "new": "+1025",
+        "recovered": 453,
+        "total": 30081,
+        "critical": 23,
+        "active": 29498
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-24T10:30:05+00:00",
+      "day": "2020-03-24",
+      "deaths": {
+        "new": "+7",
+        "total": 130
+      }
+    },
+    {
+      "country": "Germany",
+      "cases": {
+        "new": "+504",
+        "recovered": 453,
+        "total": 29560,
+        "critical": 23,
+        "active": 28981
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-24T09:30:05+00:00",
+      "day": "2020-03-24",
+      "deaths": {
+        "new": "+3",
+        "total": 126
+      }
+    },
+    {
+      "country": "Germany",
+      "cases": {
+        "new": "+4183",
+        "recovered": 453,
+        "total": 29056,
+        "critical": 23,
+        "active": 28480
+      },
+      "tests": {
+        "total": null
+      },
+      "time": "2020-03-24T09:15:06+00:00",
+      "day": "2020-03-24",
+      "deaths": {
+        "new": "+29",
+        "total": 123
+      }
+    }
+  ],
+  "get": "history",
+  "parameters": {
+    "country": "Germany",
+    "day": "2020-03-24"
+  },
+  "results": 14,
+  "errors": [
+  ]
+}
+
+11:46:37.654 [print] 
+11:46:37.674 [print] 

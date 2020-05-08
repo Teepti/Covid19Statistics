@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>Karate.Covid19Statistics.TestCases.getStatisticsOfIndia</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">1</div>
+            
+<div class="bg-danger" id="nav-fail">0</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2020-05-08 05:09:17 PM</div>        
+      
+<div class="nav-container">
+<div class="nav-item passed">
+<a href="#[1:2]">[1:2] Fetch statistics of India </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">Karate/Covid19Statistics/TestCases/getStatisticsOfIndia.feature</span><span class="feature-description">Get statistics data for all countries infected by Coronavirus</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1:2]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [1:2]</span><span class="scenario-name">Fetch statistics of India </span>
+</div>
+<div class="scenario-time passed">ms: 2488</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="1">
+<div class="step-ref passed">1</div>
+<div class="step-cell passed">Given url baseUrl</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="2">
+<div class="step-ref passed">2</div>
+<div class="step-cell passed">And path 'statistics'</div>
+</div>
+<div class="time-cell passed">15</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="3">
+<div class="step-ref passed">3</div>
+<div class="step-cell passed">And header x-rapidapi-host = "covid-193.p.rapidapi.com"</div>
+</div>
+<div class="time-cell passed">19</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="4">
+<div class="step-ref passed">4</div>
+<div class="step-cell passed">And header x-rapidapi-key = "d2b1fa2dddmsh130230f565571c8p18b6dcjsneb060c985a2f"</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="5">
+<div class="step-ref passed">5</div>
+<div class="step-cell passed">And param country = 'India'</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="6">
+<div class="step-ref passed">6</div>
+<div class="step-cell passed">When method get</div>
+</div>
+<div class="time-cell passed">2450</div>
+</div>
+<div class="preformatted" data-parent="6">17:09:08.161 request:
+1 &gt; GET https://covid-193.p.rapidapi.com/statistics?country=India
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: covid-193.p.rapidapi.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_252)
+1 &gt; x-rapidapi-host: covid-193.p.rapidapi.com
+1 &gt; x-rapidapi-key: d2b1fa2dddmsh130230f565571c8p18b6dcjsneb060c985a2f
+
+17:09:09.704 response time in milliseconds: 1500.49
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 308
+1 &lt; Content-Type: application/json
+1 &lt; Date: Fri, 08 May 2020 11:39:48 GMT
+1 &lt; Server: RapidAPI-1.1.6
+1 &lt; X-RapidAPI-Region: AWS - ap-southeast-1
+1 &lt; X-RapidAPI-Version: 1.1.6
+{"get":"statistics","parameters":{"country":"India"},"errors":[],"results":1,"response":[{"country":"India","cases":{"new":"+165","active":37754,"critical":0,"recovered":16867,"total":56516},"deaths":{"new":"+6","total":1895},"tests":{"total":1437788},"day":"2020-05-08","time":"2020-05-08T11:30:05+00:00"}]}</div>
+<div class="step-row">
+<div class="step-container" id="7">
+<div class="step-ref passed">7</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="8">
+<div class="step-ref passed">8</div>
+<div class="step-cell passed">Then print response</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="preformatted" data-parent="8">17:09:09.710 [print] {
+  "response": [
+    {
+      "country": "India",
+      "cases": {
+        "new": "+165",
+        "recovered": 16867,
+        "total": 56516,
+        "critical": 0,
+        "active": 37754
+      },
+      "tests": {
+        "total": 1437788
+      },
+      "time": "2020-05-08T11:30:05+00:00",
+      "day": "2020-05-08",
+      "deaths": {
+        "new": "+6",
+        "total": 1895
+      }
+    }
+  ],
+  "get": "statistics",
+  "parameters": {
+    "country": "India"
+  },
+  "results": 1,
+  "errors": [
+  ]
+}</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>
